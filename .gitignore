@@ -61,8 +61,6 @@ dlldata.c
 project.lock.json
 artifacts/
 
-tile.h
-motor.h
 
 *_i.c
 *_p.c

@@ -4,10 +4,6 @@
 
 namespace tile {
 
-	int Tile_Spec::get_tile_size() { return TILE_SIZE; }
-	int Tile_Spec::get_wheel_size() { return WHEEL_SIZE; }
-
-
 	void Draw_tile::draw_tile(int x, int y){
 
 		int tile_size = 20;
