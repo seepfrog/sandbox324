@@ -4,9 +4,11 @@
 
 namespace tile {
 
-	void Draw_tile::draw_tile(int x, int y){
+	void gridTile::draw_tile(){
 
-		int tile_size = 20;
+		int tile_size = get_tile_size();
+		int x = get_tile_x_position();
+		int y = get_tile_y_position();
 
 		glPushMatrix();
 
@@ -22,6 +24,7 @@ namespace tile {
 		glLineWidth(1.0);
 		glPopMatrix();
 	}
+
 
 } // namespace tile 
 
