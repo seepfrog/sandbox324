@@ -4,6 +4,14 @@
 
 namespace tile {
 
+	int gridTile:: get_tile_x_position() { return tile_x_position; }
+	int gridTile:: get_tile_y_position() { return tile_y_position; }
+
+	void gridTile::set_tile_position(int x, int y) {
+		tile_x_position = x;
+		tile_y_position = y;
+	}
+
 	void gridTile::draw_tile(){
 
 		int tile_size = get_tile_size();

@@ -14,13 +14,10 @@ namespace tile {
 	public:
 		int get_tile_size() { return tile_size; }
 
-		int get_tile_x_position() { return tile_x_position; }
-		int get_tile_y_position() { return tile_y_position; }
+		int get_tile_x_position();
+		int get_tile_y_position();
 
-		void set_tile_position(int x, int y) {
-			tile_x_position = x;
-			tile_y_position = y;
-		}
+		void set_tile_position(int x, int y);
 
 		gridTile(int size, int x, int y) {
 			tile_size = size;
